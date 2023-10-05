@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "showdown-github": "^1.0.0"
+  }
+}
