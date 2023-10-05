@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    
+    width: 800px;
+}
+
+form {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.available {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn-available{
+    width: 50px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 1px solid #cecece;
+}
+
+.form-inf{
+    padding: 10px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cecece;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.btn-available, .btn-form {
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #cecece;
+    &:focus{
+        background-color: #62992f;
+        color: white;
+    }
+}
+
+table {
+    margin: auto;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #cecece;
+    text-align: center;
+}
+
+h1, span, th {
+    color: #31493c;
+}
+
+.order-by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-order{
+    margin-left: 10px;
+}

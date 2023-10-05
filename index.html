@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de produtos e valores</title>
+    <link rel="stylesheet" href="src/assets/index.css">
+    <script defer src="src/assets/index.js"></script>
+</head>
+<body>
+<div class="container">
+    <form>
+        <h1> Lista de produtos</h1>
+        <input type="text" id="name" class="form-inf" placeholder="Digite o nome do produto">
+        <input type="text" id="description" class="form-inf" placeholder="Digite a descrição do produto">
+        <input type="number" id="value" class="form-inf" placeholder="Digite o valor do produto">
+        <div class="available">
+        <span>Disponível para venda?</span>
+        <button type="button" class="btn-available">Sim</button>
+        <button type="button" class="btn-available">Não</button>
+        </div>
+        <button type="submit" id="btn" class="btn-form">Cadastrar</button>
+    </form>     
+
+    <table>
+        <thead> 
+            <tr>
+                <th scope="col"> Nome </th>
+                <th scope="col" class="order-by"> Valor <button class="btn-order" onclick="setNewOrder()"> <img src="src/assets/images/two-ways.png" width="20px" alt="order"> </button></th>
+            </tr>
+            
+        </thead>
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+</div>
+</body>
+</html>
