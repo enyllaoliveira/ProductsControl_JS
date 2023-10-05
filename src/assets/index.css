@@ -12,13 +12,11 @@ body {
 }
 
 .container{
-    
     width: 800px;
 }
 
 form {
     margin: 0 auto;
-    background-color: white;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
