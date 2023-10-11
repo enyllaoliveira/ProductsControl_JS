@@ -82,6 +82,10 @@ h1, span, th {
     color: #31493c;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 .order-by {
     display: flex;
     align-items: center;
